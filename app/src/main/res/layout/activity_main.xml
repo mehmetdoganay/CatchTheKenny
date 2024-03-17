@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:rowCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- 1. bölme -->
+        <ImageView
+            android:id="@+id/image"
+            android:visibility="invisible"
+            android:onClick="imageClick"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="20dp"
+            android:src="@drawable/kenny" />
+
+        <!-- 2. bölme -->
+        <ImageView
+            android:id="@+id/image2"
+            android:visibility="invisible"
+            android:onClick="imageClick"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="20dp"
+            android:src="@drawable/kenny" />
+
+        <!-- 3. bölme -->
+        <ImageView
+            android:id="@+id/image3"
+            android:onClick="imageClick"
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="20dp"
+            android:src="@drawable/kenny" />
+
+        <!-- 4. bölme -->
+        <ImageView
+            android:id="@+id/image4"
+            android:onClick="imageClick"
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="20dp"
+            android:src="@drawable/kenny" />
+
+        <!-- 5. bölme -->
+        <ImageView
+            android:id="@+id/image5"
+            android:onClick="imageClick"
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="20dp"
+            android:src="@drawable/kenny" />
+
+        <!-- 6. bölme -->
+        <ImageView
+            android:id="@+id/image6"
+            android:onClick="imageClick"
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="20dp"
+            android:src="@drawable/kenny" />
+
+        <!-- 7. bölme -->
+        <ImageView
+            android:id="@+id/image7"
+            android:onClick="imageClick"
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="20dp"
+            android:src="@drawable/kenny" />
+
+        <!-- 8. bölme -->
+        <ImageView
+            android:id="@+id/image8"
+            android:onClick="imageClick"
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="20dp"
+            android:src="@drawable/kenny" />
+
+        <!-- 9. bölme -->
+        <ImageView
+            android:id="@+id/image9"
+            android:onClick="imageClick"
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="20dp"
+            android:src="@drawable/kenny" />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:text="Score: 0 "
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.302"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gridLayout" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:text="Timer: 0 "
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.738"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gridLayout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
